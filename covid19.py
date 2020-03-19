@@ -47,7 +47,6 @@ with open(nbcases_filename, newline='') as csvfile:
 
 countries = list(nb_cases.keys())
 countries.sort()
-print('Countries: ', countries)
 
 nb_cases['World'] = sum(nb_cases.values())
 
